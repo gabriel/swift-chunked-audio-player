@@ -40,7 +40,7 @@ And then adding the product to any target that needs access to the library:
 ```swift
 private let player = AudioPlayer()
 ```
-* Get the audio data stream (can be either `AsyncThrowableStream` or `AnyPublisher`):
+* Get the audio data stream (can be either `AsyncThrowingStream` or `AnyPublisher`):
 ```swift
 let stream = AsyncThrowableStream<Data, Error> = ...
 ```
